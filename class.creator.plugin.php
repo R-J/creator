@@ -40,7 +40,7 @@ class CreatorPlugin extends Gdn_Plugin {
         $sender->permission('Garden.Settings.Manage');
 
         $sender->addSideMenu('plugin/creator');
-        $sender->Form = new gdn_Form();
+        $sender->Form = new Gdn_Form();
         $sender->addCssFile('creator.css', 'plugins/creator');
         $sender->setData('Title', t('Plugin Creator'));
 
